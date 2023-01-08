@@ -2,35 +2,15 @@ This is the project 2 of the ALX - Udacity Nanodegree Cloud DevOps prohgram, Tit
 
 This project shows hands-on experience on particularly AWS Cloude Formation infrastructure as code, to set up VPC and itc components, EC2 instance and Apacha server and Load Balancer on AWS
 
-
-
-There will be two parts to this project:
-
-a. Diagram: Develop a diagram as a visual aid to understand the CloudFormation script.
-
-b. Script (Template and Parameters): A matching CloudFormation script.
-
-
-# Project 2 - Deploy a High-Availability Web App using CloudFormation 
-
-
-> In this project (Udagram App), I deployed web servers for a highly available web app using CloudFormation.
-> I wrote the script that creates and deploys the infrastructure and application for an Udagram app from the ground up.
-> The script begin deploying the networking components followed by servers, security roles and software.
-
-## The files included are:
-```sh
-* /Images-of-result-deploy : Screenshot the result of deploy.
-* /App of Udagram : Udagram App Code (Bootssrap CSS framework, Font, and JavaScript libraries needed for the website to function etc ...)
-* create.sh : Cloudformation create stack script. 
-* update.sh : Cloudformation update stack script.
-* destroy.sh : Cloudformation delete stack script.
-* infrastructure_networkandserver.yml : Udagram Project CloudFormation script.
-* infrastructure_networkandserver.json : Udagram Project CloudFormation script parameters.
+## Folders and files included are:
 ```
-## Instruction of deploy:
+* Projects Screenshots - which cotains all screshot for the projects
+* src Files - creat-command.sh, update-command.sh, delete-command.sh, parameters.json, frastructure.yml and ReadMe.md -- where creat-command.sh, update-command.sh, delete-command.sh are bach scripts to automatethe processes and   parameters.json, frastructure.yml are parameter files and template file respectively
+* udacity-starter-website.zip, is the replayment of the default index.html that comes with Apache serve to show "It works"
+```
+## Command to provisions these resources
+> ./create-command.sh UdagramCloudFormation infrastructure.yml parameters.json
 
-Just run;
-```sh
-> ./create.sh UdagramApp infrastructure_networkandserver.yml infrastructure_networkandserver.json
+## github clone links: https://github.com/princewillopah/ALX-Udacity-project-2-udagram-CloudFormation.git
+## github l;link: https://github.com/princewillopah/ALX-Udacity-project-2-udagram-CloudFormation
 
